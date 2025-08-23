@@ -1,0 +1,15 @@
+{
+  "name": "Sam",
+  "description": "The myth, the legend",
+  "authors": [
+    "SforSam (herself)"
+  ],
+  "color": "#000FFF",
+  "version":"0.1.16",
+  "autoScripts":[
+    // "utils.physBoneAPI",
+    // goes in the order of the list
+    "scripts.main"
+  ] 
+  
+}

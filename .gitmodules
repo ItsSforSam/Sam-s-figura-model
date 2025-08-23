@@ -1,0 +1,3 @@
+[submodule "figura-physbone-api"]
+	path = utils/figura-physbone-api
+	url = git@github.com:ChloeSpacedOut/figura-physbone-api.git
