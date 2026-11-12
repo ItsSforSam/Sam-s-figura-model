@@ -1,7 +1,9 @@
 {
-    "figura.librariesFolderPath": "/home/sforsam/.local/share/.minecraft/figura/avatars/libraries/",
+    "figura.librariesFolderPath": "~/.local/share/.minecraft/figura/avatars/libraries/",
     "cSpell.words": [
+        "bbmodel",
         "Figura",
-        "sammodel"
+        "sammodel",
+        "Sami",
     ]
 }
