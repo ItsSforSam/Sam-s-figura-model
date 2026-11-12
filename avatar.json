@@ -9,7 +9,8 @@
   "autoScripts":[
     // "utils.physBoneAPI",
     // goes in the order of the list
-    "scripts.main"
+    "scripts.main",
+    "scripts.host"
   ] 
   
 }
