@@ -83,9 +83,10 @@ end
 function events.skull_render(delta, block, item, entity, ctx)
   --@TODO: have it be lower and having away in hand and have it either be ontop of players head or just
   --       use default skull option (which is everything just attached to the headbone)
+  if entity == nil then return end -- this errors for some reason, but if no entity is given, just error out
   if ctx == "RIGHT_HAND" or ctx == "LEFT_HAND" then
     
-  else if ctx == "HEAD" or entity:getType() == "minecraft:" then 
+  else if ctx == "HEAD" or entity:isPlayer() then 
     
   else
 
